@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F1C10F5281AEC7700565C83 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1C10F4281AEC7700565C83 /* MainView.swift */; };
+		2F1C10F7281AECD700565C83 /* Ding Dong.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2F1C10F6281AECD600565C83 /* Ding Dong.otf */; };
 		2F7F0319281AEB75002935A9 /* DoggoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7F0318281AEB75002935A9 /* DoggoApp.swift */; };
 		2F7F031B281AEB75002935A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7F031A281AEB75002935A9 /* ContentView.swift */; };
 		2F7F031D281AEB75002935A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F7F031C281AEB75002935A9 /* Assets.xcassets */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F1C10F4281AEC7700565C83 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2F1C10F6281AECD600565C83 /* Ding Dong.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ding Dong.otf"; sourceTree = "<group>"; };
+		2F1C10F8281AED0300565C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2F7F0315281AEB75002935A9 /* Doggo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doggo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F7F0318281AEB75002935A9 /* DoggoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoggoApp.swift; sourceTree = "<group>"; };
 		2F7F031A281AEB75002935A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,9 +99,12 @@
 		2F7F0317281AEB75002935A9 /* Doggo */ = {
 			isa = PBXGroup;
 			children = (
+				2F1C10F8281AED0300565C83 /* Info.plist */,
 				2F7F0318281AEB75002935A9 /* DoggoApp.swift */,
 				2F7F031A281AEB75002935A9 /* ContentView.swift */,
+				2F1C10F4281AEC7700565C83 /* MainView.swift */,
 				2F7F031C281AEB75002935A9 /* Assets.xcassets */,
+				2F1C10F6281AECD600565C83 /* Ding Dong.otf */,
 				2F7F031E281AEB75002935A9 /* Preview Content */,
 			);
 			path = Doggo;
@@ -233,6 +241,7 @@
 			files = (
 				2F7F0320281AEB75002935A9 /* Preview Assets.xcassets in Resources */,
 				2F7F031D281AEB75002935A9 /* Assets.xcassets in Resources */,
+				2F1C10F7281AECD700565C83 /* Ding Dong.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F7F031B281AEB75002935A9 /* ContentView.swift in Sources */,
+				2F1C10F5281AEC7700565C83 /* MainView.swift in Sources */,
 				2F7F0319281AEB75002935A9 /* DoggoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +430,7 @@
 				DEVELOPMENT_TEAM = 5M7489Y88J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Doggo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +460,7 @@
 				DEVELOPMENT_TEAM = 5M7489Y88J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Doggo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
